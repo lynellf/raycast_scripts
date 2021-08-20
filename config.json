@@ -1,6 +1,0 @@
-{
-  "open-repo-with-code": {
-    "basePath": "~/Documents/repos/",
-    "codeCommand": "code ."
-  }
-}
