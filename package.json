@@ -4,12 +4,29 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
+  },
+  "jest": {
+    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|js?|tsx?|ts|mjs?)$",
+    "transform": {
+      "^.+\\.mjs$": "babel-jest"
+    },
+    "moduleFileExtensions": [
+      "mjs",
+      "js"
+    ]
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "type": "commonjs",
   "dependencies": {
+    "@types/jest": "^27.0.1",
+    "babel-jest": "^27.0.6",
+    "date-fns": "^2.23.0",
+    "faker": "^5.5.3",
+    "jest": "^27.0.6",
+    "reddit": "^1.2.1",
     "shelljs": "^0.8.4",
     "zx": "^3.0.0"
   }
