@@ -17,3 +17,20 @@ Allows us to open any local repo directory with VSCode
 basePath: string // repo directory or parent directory of the desired targets
 codeCommand: string // the terminal command to open vscode within the directory
 ```
+
+### Reddit2Obsidian
+
+Move saved posts and or comments to obsidian vault
+
+#### Config
+
+[App Config Details Can Be Found Here](https://www.reddit.com/prefs/apps)
+
+```
+username: string
+password: string
+appId: string
+appSecret: string
+userAgent: string
+vaultPath: string
+```
