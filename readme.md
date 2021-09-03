@@ -34,3 +34,12 @@ appSecret: string
 userAgent: string
 vaultPath: string
 ```
+
+### CDB 2 JSON
+
+Convert Sqlite files to json
+
+```
+inputDir: string
+outputDir: string
+```
