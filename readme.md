@@ -43,3 +43,12 @@ Convert Sqlite files to json
 inputDir: string
 outputDir: string
 ```
+
+### Card Formatter
+
+Prettify CDB 2 JSON output
+
+```
+inputDir: string
+outputDir: string
+```
